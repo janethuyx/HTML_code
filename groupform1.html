@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <title>Employment Application Form</title>
+
+</head>
+
+<body>
+
+<h1><center>Employment Application Form</center></h1>
+
+<h2><center>Personal Information</center></h2>
+
+
+<center>
+    <form method="post" action="http://.../formProc.cgi" name='personal_info'>
+
+    <table border="0" cellpadding="5" cellspacing="0">
+
+    <tr> 
+        <td style="width: 50%">
+            <label for="First_Name"><span class="bold-text">First name *</span></label><br />
+            <input name="First_Name" type="text" maxlength="50"  required style="width: 260px" />
+        </td> 
+        <td style="width: 50%">
+            <label for="Last_Name"><span class="bold-text">Last name *</span></label><br />
+            <input name="Last_Name" type="text" maxlength="50"  required style="width: 260px" />
+        </td> 
+    </tr> 
+
+    <tr> 
+        <td colspan="2">
+            <label for="Email_Address"><span class="bold-text">Email *</span></label><br />
+            <input name="Email_Address" type="email" placeholder='email' required style="width: 535px" />
+        </td> 
+    </tr> 
+
+    <tr> 
+        <td colspan="2">
+            <label for="Portfolio"><span class="bold-text">Portfolio website</span></label><br />
+            <input name="Portfolio" type="url" placeholder='http://' style="width: 535px" />
+        </td> 
+    </tr> 
+
+    <tr> 
+        <td style="width: 50%">
+            <label for="Adress"><span class="bold-text">Street Adress</span></label><br />
+            <input name="Adress" type="text" maxlength="255" style="width: 260px" />
+        </td> 
+        <td style="width: 50%">
+            <label for="City"><span class="bold-text">City</span></label><br />
+            <input name="City" type="text" maxlength="50" style="width: 260px" />
+        </td> 
+
+    </tr> 
+
+    <tr> 
+        <td style="width: 50%">
+            <label for="State"><span class="bold-text">State</span></label><br /> 
+            <input name="State" type="text" maxlength="50" style="width: 260px" /> 
+        </td> 
+        <td style="width: 50%">
+            <label for="ZipCode"><span class="bold-text">Zip Code</span></label><br />
+            <input name="ZipCode" type="text" maxlength="50" style="width: 260px" />
+        </td> 
+    </tr> 
+
+    <tr> 
+        <td style="width: 50%">
+            <label for="Phone"><span class="bold-text">Phone *</span></label><br />
+            <input name="Phone" type="tel" placeholder='999-999-9999' required style="width: 260px" />
+        </td> 
+        <td style="width: 50%">
+            <label for="Fax"><span class="bold-text">Fax</span></label><br />
+            <input name="Fax" type="text" maxlength="50" style="width: 260px" />
+        </td> 
+    </tr> 
+
+
+    <tr>
+        <td>
+            <label for="Age18"><span class="bold-text">Are you over the age of 18?</span></label><br />
+            <td>
+                <select name=education id=slctSingle class=input style='width:100px'>
+                    <option id=none value='0'>--Choose from below--</option> 
+                    <option id=Age181   value='>18'>Yes</option> 
+                    <option id=Age182   value='<18ok'>No,but I have an employment/age certificate</option>
+                    <option id=Age183   value='<18not'>No,and I do not have an employment/age certificate</option>  
+                </select>
+            </td> 
+        </td>
+    </tr> 
+
+
+    <tr> 
+        <td colspan="2">
+            <label for="COrganization"><span class="bold-text">Last company you worked for</span></label><br />
+            <input name="COrganization" type="text" maxlength="100" style="width: 535px" />
+        </td> 
+    </tr>
+
+
+
+    <tr> 
+        <td colspan="2">
+            <label for="Title"><span class="bold-text">Last title</span></label><br />
+            <input name="Title" type="text" maxlength="100" style="width: 535px" />
+        </td> 
+    </tr> 
+
+
+    <tr> 
+        <td colspan="2">
+            <label for="Postion"><span class="bold-text">Position you apply for</span></label><br />
+            <input name="Postion" type="text" maxlength="100" style="width: 535px" />
+        </td> 
+    </tr> 
+
+
+    <tr> 
+        <td colspan="2" style="text-align: center;">
+        </td> 
+    </tr>
+   
+    </table>
+
+
+
+    <input type=submit value=Continue>
+
+
+    </form>
+
+</center>
+
+</body>
+
+</html>
