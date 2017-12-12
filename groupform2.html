@@ -1,0 +1,173 @@
+<html>
+
+<head>
+    <title>Employment Application Form</title>
+
+</head>
+
+<body>
+
+<h1><center>Employment Application Form</center></h1>
+
+<h2><center>Experience</center></h2>
+
+
+<center>
+    <form method="post" action="http://.../formProc.cgi" name='SecondForm'>
+
+    <table border="0" cellpadding="5" cellspacing="0">
+
+
+    <tr> 
+        <td colspan="2">
+            <p style="color:#0000A0"><b>School Information</b></p>
+        </td> 
+    </tr>
+
+    <tr> 
+        <td style="width: 50%">
+            <label for="SName"><span class="bold-text">Name</span></label><br />
+            <input name="SName" type="text" maxlength="50" style="width: 260px" />
+        </td> 
+        <td style="width: 50%">
+            <label for="SYear"><span class="bold-text">Number of years completed</span></label><br />
+            <input name="SYear" type="number" min=0 max=100 style="width: 200px" />
+        </td> 
+    </tr> 
+
+
+    <tr> 
+        <td colspan="2">
+            <label for="Graduate"><span class="bold-text">Did you graduate?</span></label><br />
+            <input name="Graduate" type="radio" value="Yes" checked="checked" /> Yes      
+            <input name="Graduate" type="radio" value="No" /> No, still attending   
+        </td> 
+    </tr> 
+
+    <tr>
+        <td>
+            <label for="Degree"><span class="bold-text">Degree / diploma earned</span></label><br />
+            <td>
+                <select name=Degree id=Degree class=input style='width:100px'>
+                    <option id=none value='0'>--Choose from below--</option> 
+                    <option id=HS   value='HighSchool'>High School Diploma</option> 
+                    <option id=AD   value='Bachelor'>Associate degree</option>
+                    <option id=BD   value='<18not'>Bachelor's degree</option>
+                    <option id=MD   value='<18not'>Master's degree</option> 
+                    <option id=DD   value='<18not'>Doctoral's degree</option>
+                </select>
+            </td> 
+        </td>
+    </tr> 
+
+
+    <tr> 
+        <td colspan="2">
+            <p style="color:#0000A0"><b>Employment history</b></p>
+<!--             <font size="2">You should be prepared to detail each position for the past five years.</font> -->
+        </td> 
+    </tr>
+
+    <tr> 
+        <td colspan="2">
+            <label for="EName"><span class="bold-text">Company Name</span></label><br />
+            <input name="EName" type="text" maxlength="50" style="width: 260px" />
+        </td> 
+    </tr> 
+
+    <tr> 
+        <td style="width: 50%">
+            <label for="Supervisor"><span class="bold-text">Name of Supervisor</span></label><br />
+            <input name="Supervisor" type="text" maxlength="100" style="width: 260px" />
+        </td> 
+        <td cstyle="width: 50%">
+            <label for="EYear"><span class="bold-text">Position</span></label><br />
+            <input name="EYear" type="text" maxlength="100" style="width: 260px" />
+        </td> 
+    </tr> 
+
+    <tr> 
+        <td style="width: 50%">
+            <label for="StartD"><span class="bold-text">Start Date:</span></label><br />
+            <input name="StartD" type="date" style="width: 260px" />
+        </td> 
+        <td style="width: 50%">
+            <label for="EndD"><span class="bold-text">End Date</span></label><br />
+            <input name="EndD" type="date" maxlength="50" style="width: 260px" />
+        </td> 
+    </tr> 
+
+    <tr> 
+        <td colspan="2">
+            <label for="DA"><span class="bold-text">Duties / Achievements </span></label><br />
+            <textarea name="DA" rows="7" cols="40" style="width: 535px"></textarea>
+        </td> 
+    </tr> 
+
+
+    <tr> 
+        <td colspan="2">
+            <p style="color:#0000A0"><b>References</b></p>
+        </td> 
+    </tr>
+
+
+    <tr> 
+        <td cstyle="width: 50%">
+            <label for="RName"><span class="bold-text">Name</span></label><br />
+            <input name="RName" type="text" maxlength="50" style="width: 260px" />
+        </td> 
+        <td style="width: 50%">
+            <label for="RTitle"><span class="bold-text">Occupation</span></label><br />
+            <input name="RTitle" type="date" style="width: 260px" />
+        </td> 
+    </tr> 
+
+     <tr> 
+        <td cstyle="width: 50%">
+            <label for="RPhone"><span class="bold-text">Phone</span></label><br />
+            <input name="RPhone" type="tel" placeholder='999-999-9999' style="width: 260px" />
+        </td> 
+        <td style="width: 50%">
+            <label for="REmail"><span class="bold-text">Email Address</span></label><br />
+            <input name="REmail" type="email"  placeholder='email' style="width: 260px" />
+        </td> 
+    </tr>    
+
+
+
+
+
+    <tr> 
+        <td colspan="2">
+            <p style="color:#0000A0"><b>SKills</b></p>
+        </td> 
+    </tr>
+
+    <tr> 
+        <td colspan="2">
+            <textarea name="SKills" rows="7" cols="40" style="width: 535px"></textarea>
+        </td> 
+    </tr> 
+
+
+    <tr> 
+        <td colspan="2" style="text-align: center;">
+        </td> 
+    </tr>
+   
+    </table>
+
+
+
+    <input type=button value=Previous>
+    <input type=submit value=Continue>
+
+
+    </form>
+
+</center>
+
+</body>
+
+</html>
